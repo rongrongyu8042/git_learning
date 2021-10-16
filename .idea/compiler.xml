@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Harris框架" />
+        <module name="server" />
+        <module name="client" />
+        <module name="Mars-SDK" />
       </profile>
     </annotationProcessing>
   </component>
