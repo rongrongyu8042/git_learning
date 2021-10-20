@@ -49,19 +49,18 @@ public class IoSelectorProvider implements IoProvider {
 
 
 
-    static class SelectThread extends Thread{
+   /* static class SelectThread extends Thread{
         private final AtomicBoolean isClosed;
         private final AtomicBoolean locker;
         private final Selector selector;
         private final HashMap<SelectionKey,Runnable> callMap;
         private final ExecutorService pool;
         private final int keyOps;
-
         SelectThread(String name,AtomicBoolean isClosed){
             
         }
 
-    }
+    }*/
 
 
 }
